@@ -1,0 +1,1 @@
+In some old browsers which don't have window.console object, any Javascript code utilizing console object will crash. This small code clip creates a dummy console object and fixes the problem.
